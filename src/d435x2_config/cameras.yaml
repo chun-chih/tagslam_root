@@ -1,0 +1,19 @@
+cam0:
+  camera_model: pinhole
+  intrinsics: [695.995, 695.995, 640, 360]
+  distortion_model: radtan
+  distortion_coeffs: [0, 0, 0, 0, 0.000000]
+  resolution: [1280, 720]
+  rostopic: /iris1/camera_forward/color/image_raw
+  tagtopic: /iris1/forward_detector/tags
+  rig_body: iris1
+
+cam1:
+  camera_model: pinhole
+  intrinsics: [695.995, 695.995, 640, 360]
+  distortion_model: radtan
+  distortion_coeffs: [0, 0, 0, 0, 0.000000]
+  resolution: [1280, 720]
+  rostopic: /iris1/camera_downward/color/image_raw
+  tagtopic: /iris1/downward_detector/tags
+  rig_body: iris1
